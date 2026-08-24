@@ -11,7 +11,7 @@ cv:
           username: willpinha
     sections:
         sobre:
-            - text: >
+            - >
                   Desenvolvedor de software com experiência em desenvolver e manter sistemas em grande escala. Gosta de entender os processos internos e de negócio para propor e colaborar em soluções junto das equipes, melhorando a experiência do usuário e a eficiência operacional da empresa
         formação:
             - institution: Universidade de São Paulo (USP)

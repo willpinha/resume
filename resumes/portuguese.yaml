@@ -12,7 +12,7 @@ cv:
     sections:
         sobre:
             - >
-                  Desenvolvedor de software com experiência em desenvolver e manter sistemas em grande escala. Gosta de entender os processos internos e de negócio para propor e colaborar em soluções junto das equipes, melhorando a experiência do usuário e a eficiência operacional da empresa
+                Desenvolvedor de software com experiência em desenvolver e manter sistemas em grande escala. Gosta de entender os processos internos e de negócio para propor e colaborar em soluções junto das equipes, melhorando a experiência do usuário e a eficiência operacional da empresa
         formação:
             - institution: Universidade de São Paulo (USP)
               area: Sistemas de Informação
@@ -29,13 +29,17 @@ cv:
               highlights:
                   - Desenvolvimento do WMS (Warehouse Management System) do Mercado Livre, atuando no gerenciamento e otimização de rotas de picking dos centros de distribuição
                   - Colaboração com outras equipes de Outbound como Waving, Picking, Consolidation e Packing
-            - company: Círculo Militar de São Paulo (CMSP)
+            - company: Círculo Militar de São Paulo
               position: Analista de Sistemas
               start_date: 2024-02
               end_date: 2025-02
               location: São Paulo, Brasil
               highlights:
                   - Desenvolvimento de sistemas internos e externos para os associados e funcionários do Círculo Militar de São Paulo
+        projetos:
+            - name: yhub
+              description: >
+                  Gerenciador de repositórios Git que facilita o clone de repositórios, colaboração em equipe e resolução de chaves SSH. Possui integração com IA para resolver nomes/aliases diretamente nos prompts. Escrito em Go
         habilidades:
             - label: Linguagens
               details: Go, Java, C#, PHP, Python, TypeScript, SQL

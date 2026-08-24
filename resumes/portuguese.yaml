@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Willian Pinheiro
+  headline: Engenheiro de Software
+  location: Brasil
+  email: your.email@example.com
+  website: https://willpinha.github.io/resume/
+  social_networks:
+    - network: LinkedIn
+      username: willpinha
+    - network: GitHub
+      username: willpinha
+  sections:
+    experiência:
+      - company: Empresa Exemplo
+        position: Engenheiro de Software
+        start_date: 2023-01
+        end_date: present
+        location: Remoto
+        highlights:
+          - Destaque de exemplo, substitua por uma conquista real
+          - Destaque de exemplo, substitua por uma conquista real
+    formação:
+      - institution: Universidade Exemplo
+        area: Ciência da Computação
+        degree: Bacharel
+        start_date: 2018-01
+        end_date: 2022-12
+        location: Cidade, País
+    projetos:
+      - name: '[Projeto Exemplo](https://github.com/willpinha)'
+        date: '2024'
+        summary: Resumo de exemplo, substitua pela descrição do projeto
+        highlights:
+          - Destaque de exemplo, substitua por um resultado real
+    habilidades:
+      - label: Linguagens
+        details: Go, Python, TypeScript
+      - label: Ferramentas
+        details: Git, Docker, Linux
+design:
+  theme: engineeringresumes
+locale:
+  language: portuguese
+settings:
+  current_date: today
+  pdf_title: Willian Pinheiro - Currículo
+  render_command:
+    output_folder: ../rendercv_output
+    typst_path: OUTPUT_FOLDER/willian-pinheiro-resume-portuguese.typ
+    pdf_path: OUTPUT_FOLDER/willian-pinheiro-resume-portuguese.pdf
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true

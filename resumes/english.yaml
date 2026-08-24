@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Willian Pinheiro
+  headline: Software Engineer
+  location: Brazil
+  email: your.email@example.com
+  website: https://willpinha.github.io/resume/
+  social_networks:
+    - network: LinkedIn
+      username: willpinha
+    - network: GitHub
+      username: willpinha
+  sections:
+    experience:
+      - company: Example Company
+        position: Software Engineer
+        start_date: 2023-01
+        end_date: present
+        location: Remote
+        highlights:
+          - Placeholder highlight, replace with a real achievement
+          - Placeholder highlight, replace with a real achievement
+    education:
+      - institution: Example University
+        area: Computer Science
+        degree: BS
+        start_date: 2018-01
+        end_date: 2022-12
+        location: City, Country
+    projects:
+      - name: '[Example Project](https://github.com/willpinha)'
+        date: '2024'
+        summary: Placeholder summary, replace with what the project does
+        highlights:
+          - Placeholder highlight, replace with a real result
+    skills:
+      - label: Languages
+        details: Go, Python, TypeScript
+      - label: Tools
+        details: Git, Docker, Linux
+design:
+  theme: engineeringresumes
+locale:
+  language: english
+settings:
+  current_date: today
+  pdf_title: Willian Pinheiro - Resume
+  render_command:
+    output_folder: ../rendercv_output
+    typst_path: OUTPUT_FOLDER/willian-pinheiro-resume-english.typ
+    pdf_path: OUTPUT_FOLDER/willian-pinheiro-resume-english.pdf
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true

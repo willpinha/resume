@@ -40,7 +40,7 @@ cv:
             - label: Linguagens
               details: Go, Java, C#, PHP, Python, TypeScript, SQL
             - label: Arquitetura
-              details: Microserviços, protocolos de rede, bancos de dados relacionais/não relacionais, testes automatizados
+              details: Microserviços, protocolos de rede, bancos de dados relacionais/não relacionais
             - label: Observabilidade
               details: Grafana, Datadog, ClickHouse
 design:

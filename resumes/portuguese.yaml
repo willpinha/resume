@@ -1,54 +1,54 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
-  name: Willian Pinheiro
-  headline: Engenheiro de Software
-  location: Brasil
-  email: your.email@example.com
-  website: https://willpinha.github.io/resume/
-  social_networks:
-    - network: LinkedIn
-      username: willpinha
-    - network: GitHub
-      username: willpinha
-  sections:
-    experiência:
-      - company: Empresa Exemplo
-        position: Engenheiro de Software
-        start_date: 2023-01
-        end_date: present
-        location: Remoto
-        highlights:
-          - Destaque de exemplo, substitua por uma conquista real
-          - Destaque de exemplo, substitua por uma conquista real
-    formação:
-      - institution: Universidade Exemplo
-        area: Ciência da Computação
-        degree: Bacharel
-        start_date: 2018-01
-        end_date: 2022-12
-        location: Cidade, País
-    projetos:
-      - name: '[Projeto Exemplo](https://github.com/willpinha)'
-        date: '2024'
-        summary: Resumo de exemplo, substitua pela descrição do projeto
-        highlights:
-          - Destaque de exemplo, substitua por um resultado real
-    habilidades:
-      - label: Linguagens
-        details: Go, Python, TypeScript
-      - label: Ferramentas
-        details: Git, Docker, Linux
+    name: Willian Pinheiro
+    headline: Desenvolvedor de Software
+    location: São Paulo, Brasil
+    email: willpinhaaa@gmail.com
+    social_networks:
+        - network: LinkedIn
+          username: willpinha
+        - network: GitHub
+          username: willpinha
+    sections:
+        formação:
+            - institution: Universidade de São Paulo (USP)
+              area: Sistemas de Informação
+              degree: Bacharel
+              start_date: 2020-03
+              end_date: 2025-05
+              location: São Paulo, Brasil
+        experiência:
+            - company: Mercado Livre
+              position: Desenvolvedor de Software
+              start_date: 2025-02
+              end_date: present
+              location: Osasco, Brasil
+              highlights:
+                  - Atuei no WMS (Warehouse Management System) do Mercado Livre, atuando no gerenciamento e otimização de rotas de picking dos centros de distribuição
+                  - Colaboração com outras equipes de Outbound como Waving, Picking, Consolidation e Packing
+            - company: Círculo Militar de São Paulo (CMSP)
+              position: Analista de Sistemas
+              start_date: 2024-02
+              end_date: 2025-02
+              location: São Paulo, Brasil
+              highlights:
+                  - Desenvolvimento de sistemas internos e externos para os associados e funcionários do Círculo Militar de São Paulo
+        habilidades:
+            - label: Linguagens
+              details: Go, Java, C#, PHP, Python, TypeScript, SQL
+            - label: Arquitetura
+              details: Microserviços, observabilidade (Grafana/Datadog), bancos de dados relacionais/não relacionais, testes automatizados
 design:
-  theme: engineeringresumes
+    theme: engineeringresumes
 locale:
-  language: portuguese
+    language: portuguese
 settings:
-  current_date: today
-  pdf_title: Willian Pinheiro - Currículo
-  render_command:
-    output_folder: ../rendercv_output
-    typst_path: OUTPUT_FOLDER/willian-pinheiro-resume-portuguese.typ
-    pdf_path: OUTPUT_FOLDER/willian-pinheiro-resume-portuguese.pdf
-    dont_generate_markdown: true
-    dont_generate_html: true
-    dont_generate_png: true
+    current_date: today
+    pdf_title: Willian Pinheiro - Currículo
+    render_command:
+        output_folder: ../rendercv_output
+        typst_path: OUTPUT_FOLDER/willian-pinheiro-resume-portuguese.typ
+        pdf_path: OUTPUT_FOLDER/willian-pinheiro-resume-portuguese.pdf
+        dont_generate_markdown: true
+        dont_generate_html: true
+        dont_generate_png: true

@@ -39,7 +39,7 @@ cv:
       - label: Tools
         details: Git, Docker, Linux
 design:
-  theme: engineeringresumes
+  theme: moderncv
 locale:
   language: english
 settings:

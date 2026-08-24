@@ -39,7 +39,7 @@ cv:
             - label: Arquitetura
               details: Microserviços, observabilidade (Grafana/Datadog), bancos de dados relacionais/não relacionais, testes automatizados
 design:
-    theme: engineeringresumes
+    theme: moderncv
 locale:
     language: portuguese
 settings:

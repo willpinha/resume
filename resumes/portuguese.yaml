@@ -37,9 +37,14 @@ cv:
               highlights:
                   - Desenvolvimento de sistemas internos e externos para os associados e funcionários do Círculo Militar de São Paulo
         projetos:
-            - name: yhub
-              description: >
-                  Gerenciador de repositórios Git que facilita o clone de repositórios, colaboração em equipe e resolução de chaves SSH. Possui integração com IA para resolver nomes/aliases diretamente nos prompts. Escrito em Go
+            - name: "[yhub](https://github.com/willpinha/yhub)"
+              summary: >
+                  Gerenciador de repositórios Git escrito em Go
+              highlights:
+                  - Clone de repositórios por nome ou alias
+                  - Colaboração em equipe com centralização de repositórios
+                  - Resolução automática de chaves SSH por perfil
+                  - Integração com IA para resolver nomes/aliases diretamente nos prompts
         habilidades:
             - label: Linguagens
               details: Go, Java, C#, PHP, Python, TypeScript, SQL

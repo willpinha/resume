@@ -1,54 +1,68 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
-  name: Willian Pinheiro
-  headline: Software Engineer
-  location: Brazil
-  email: your.email@example.com
-  website: https://willpinha.github.io/resume/
-  social_networks:
-    - network: LinkedIn
-      username: willpinha
-    - network: GitHub
-      username: willpinha
-  sections:
-    experience:
-      - company: Example Company
-        position: Software Engineer
-        start_date: 2023-01
-        end_date: present
-        location: Remote
-        highlights:
-          - Placeholder highlight, replace with a real achievement
-          - Placeholder highlight, replace with a real achievement
-    education:
-      - institution: Example University
-        area: Computer Science
-        degree: BS
-        start_date: 2018-01
-        end_date: 2022-12
-        location: City, Country
-    projects:
-      - name: '[Example Project](https://github.com/willpinha)'
-        date: '2024'
-        summary: Placeholder summary, replace with what the project does
-        highlights:
-          - Placeholder highlight, replace with a real result
-    skills:
-      - label: Languages
-        details: Go, Python, TypeScript
-      - label: Tools
-        details: Git, Docker, Linux
+    name: Willian Pinheiro
+    headline: Software Developer
+    location: São Paulo, Brazil
+    email: willpinhaaa@gmail.com
+    social_networks:
+        - network: LinkedIn
+          username: willpinha
+        - network: GitHub
+          username: willpinha
+    sections:
+        about:
+            - >
+                Software developer with experience building and maintaining large-scale systems. Enjoys understanding internal and business processes to propose and collaborate on solutions together with the teams, improving user experience and the company's operational efficiency
+        education:
+            - institution: University of São Paulo (USP)
+              area: Information Systems
+              degree: BS
+              start_date: 2020-03
+              end_date: 2025-05
+              location: São Paulo, Brazil
+        experience:
+            - company: Mercado Livre
+              position: Software Developer
+              start_date: 2025-02
+              end_date: present
+              location: Osasco, Brazil
+              highlights:
+                  - Development of Mercado Livre's WMS (Warehouse Management System), working on the management and optimization of picking routes in distribution centers
+                  - Collaboration with other Outbound teams such as Waving, Picking, Consolidation and Packing
+            - company: Círculo Militar de São Paulo
+              position: Systems Analyst
+              start_date: 2024-02
+              end_date: 2025-02
+              location: São Paulo, Brazil
+              highlights:
+                  - Development of internal and external systems for the members and employees of Círculo Militar de São Paulo
+        projects:
+            - name: "[yhub](https://github.com/willpinha/yhub)"
+              summary: >
+                  Git repository manager written in Go
+              highlights:
+                  - Repository cloning by name or alias
+                  - Team collaboration with centralized repositories
+                  - Automatic SSH key resolution per profile
+                  - AI integration to resolve names/aliases directly in prompts
+        skills:
+            - label: Languages
+              details: Go, Java, C#, PHP, Python, TypeScript, SQL
+            - label: Architecture
+              details: Microservices, network protocols, relational/non-relational databases
+            - label: Observability
+              details: Grafana, Datadog, ClickHouse
 design:
-  theme: moderncv
+    theme: moderncv
 locale:
-  language: english
+    language: english
 settings:
-  current_date: today
-  pdf_title: Willian Pinheiro - Resume
-  render_command:
-    output_folder: ../rendercv_output
-    typst_path: OUTPUT_FOLDER/willian-pinheiro-resume-english.typ
-    pdf_path: OUTPUT_FOLDER/willian-pinheiro-resume-english.pdf
-    dont_generate_markdown: true
-    dont_generate_html: true
-    dont_generate_png: true
+    current_date: today
+    pdf_title: Willian Pinheiro - Resume
+    render_command:
+        output_folder: ../rendercv_output
+        typst_path: OUTPUT_FOLDER/willian-pinheiro-resume-english.typ
+        pdf_path: OUTPUT_FOLDER/willian-pinheiro-resume-english.pdf
+        dont_generate_markdown: true
+        dont_generate_html: true
+        dont_generate_png: true

@@ -64,7 +64,7 @@ locale:
     language: portuguese
 settings:
     current_date: today
-    pdf_title: Willian Pinheiro - Currículo
+    pdf_title: Willian Pinheiro
     render_command:
         output_folder: ../rendercv_output
         typst_path: OUTPUT_FOLDER/willian-pinheiro-resume-portuguese.typ

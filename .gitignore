@@ -1,4 +1,6 @@
 rendercv_output/
 site/*.pdf
+build/
+.task/
 .venv/
 __pycache__/

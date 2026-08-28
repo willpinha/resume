@@ -1,0 +1,32 @@
+version: "3"
+
+vars:
+  BUILD_DIR: build
+
+tasks:
+  sync:
+    desc: Install project dependencies
+    cmds:
+      - uv sync --locked
+    sources:
+      - pyproject.toml
+      - uv.lock
+    generates:
+      - .venv/**/*
+
+  build:
+    desc: Render all resumes and copy the PDFs into the build directory
+    deps: [sync]
+    cmds:
+      - mkdir -p {{.BUILD_DIR}}
+      - for f in resumes/*.yaml; do uv run rendercv render "$f"; done
+      - cp rendercv_output/*.pdf {{.BUILD_DIR}}/
+    sources:
+      - resumes/*.yaml
+    generates:
+      - "{{.BUILD_DIR}}/*.pdf"
+
+  clean:
+    desc: Remove generated build artifacts
+    cmds:
+      - rm -rf {{.BUILD_DIR}} rendercv_output

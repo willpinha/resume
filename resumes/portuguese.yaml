@@ -1,9 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
     name: Willian Pinheiro
-    headline: Desenvolvedor de Software
+    headline: Engenheiro de Software Pleno
     location: São Paulo, Brasil
     email: willpinhaaa@gmail.com
+    website: https://willpinha.github.io
     social_networks:
         - network: LinkedIn
           username: willpinha
@@ -12,48 +13,53 @@ cv:
     sections:
         sobre:
             - >
-                Desenvolvedor de software com experiência em desenvolver e manter sistemas em grande escala. Gosta de entender os processos internos e de negócio para propor e colaborar em soluções junto das equipes, melhorando a experiência do usuário e a eficiência operacional da empresa
+                Desenvolvedor de software backend com 3 anos de experiência, atualmente focado em Go e em sistemas de alta escalabilidade. Gosta de entender os processos de negócio por trás dos sistemas que constrói, não apenas a tecnologia, buscando propor soluções junto das equipes que melhorem a operação da empresa como um todo.
         formação:
             - institution: Universidade de São Paulo (USP)
               area: Sistemas de Informação
               degree: Bacharel
               start_date: 2020-03
               end_date: 2025-05
-              location: São Paulo, Brasil
         experiência:
             - company: Mercado Livre
               position: Desenvolvedor de Software
               start_date: 2025-02
               end_date: present
-              location: Osasco, Brasil
               highlights:
-                  - Desenvolvimento do WMS (Warehouse Management System) do Mercado Livre, atuando no gerenciamento e otimização de rotas de picking dos centros de distribuição
-                  - Colaboração com outras equipes de Outbound como Waving, Picking, Consolidation e Packing
+                  - Manutenção e evolução do Warehouse Management System, atuando na otimização de rotas de picking em mais de 100 centros de distribuição
+                  - Sistemas que sustentam milhões de requisições diárias, mantendo alta disponibilidade em ambiente de operação crítica
+                  - Propus e implementei ferramentas de observabilidade para identificar inconsistências de dados entre bancos sincronizados e monitorar demoras em fluxos críticos de processamento
             - company: Círculo Militar de São Paulo
               position: Analista de Sistemas
               start_date: 2024-02
               end_date: 2025-02
-              location: São Paulo, Brasil
               highlights:
-                  - Desenvolvimento de sistemas internos e externos para os associados e funcionários do Círculo Militar de São Paulo
+                  - Colaborei no desenvolvimento do sistema de agendamento de espaços do clube (quadras, salão de beleza, academias) em C# e SQL Server, para uso interno e externo
+                  - Integração com sistema terceirizado de controle de acesso via catracas para monitoramento de entrada de associados e funcionários
+                  - Desenvolvi sozinho o sistema de gestão de encomendas, com registro na portaria e retirada posterior por associados e funcionários
         projetos:
-            - name: "[yhub](https://github.com/willpinha/yhub)"
+            - name: "[willpinha.github.io](https://willpinha.github.io)"
               summary: >
-                  Gerenciador de repositórios Git escrito em Go
+                  Site pessoal em Go que consome a API GraphQL do GitHub para exibir contribuições open source
               highlights:
-                  - Clone de repositórios por nome ou alias
-                  - Colaboração em equipe com centralização de repositórios
-                  - Resolução automática de chaves SSH por perfil
-                  - Integração com IA para resolver nomes/aliases diretamente nos prompts
+                  - Geração de site estático a partir de dados da API GraphQL do GitHub
+                  - Testes automatizados e pipeline de CI/CD para build e deploy
         habilidades:
             - label: Linguagens
               details: Go, Java, C#, PHP, Python, TypeScript, SQL
-            - label: Arquitetura
-              details: Microserviços, protocolos de rede, bancos de dados relacionais/não relacionais
+            - label: Bancos de Dados
+              details: MySQL, SQL Server, PostgreSQL
+            - label: Infraestrutura
+              details: Docker, Kubernetes, Fury (IDP do Mercado Livre), mensageria (queue/pub-sub), object storage
             - label: Observabilidade
               details: Grafana, Datadog, ClickHouse
+            - label: Idiomas
+              details: Português (nativo), Inglês (intermediário)
 design:
     theme: moderncv
+    templates:
+        footer: ""
+        top_note: ""
 locale:
     language: portuguese
 settings:
